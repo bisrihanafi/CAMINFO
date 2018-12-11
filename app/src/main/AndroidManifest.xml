@@ -49,7 +49,15 @@
                 android:name=".Jadwal"
                 android:label="@string/title_activity_jadwal"
                 android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity android:name=".senin" />
+        <activity android:name=".selasa" />
+        <activity android:name=".rabu" />
         <activity
                 android:name=".Tugas"
                 android:label="@string/title_activity_tugas"
